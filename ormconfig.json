@@ -1,0 +1,23 @@
+{
+   "type": "mysql",
+   "host": "45.76.176.241",
+   "port": 3306,
+   "username": "nets",
+   "password": "nets2019devdb",
+   "database": "cms",
+   "entities": [
+      "dist/**/**.entity{.ts,.js}"
+   ],
+   "synchronize": true,
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "dist/subscriber/**/*.js"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
