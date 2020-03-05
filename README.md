@@ -42,8 +42,6 @@ $ npm run test:cov
 ## Dev Db
 
 ```
-host: 210.2.98.178
-username: nets
-password: nets2019devdb
+
 ```
 
