@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="http://dotnets.org/assets/img/logos/logo_256.png" width="320" alt="Nets Logo" /></a>
-</p>
-
-
 ## Description
 
 CMS Api 
